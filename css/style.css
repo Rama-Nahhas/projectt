@@ -1,0 +1,485 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 3000px;
+}
+a{
+    text-decoration: none;
+
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+p{
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;    
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+
+
+}
+/* start navbar */
+.nav{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(193, 181, 160);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000px;
+}
+
+.nav ul{
+    float: right;
+    margin-right: 180px;
+    padding-top: 20px;
+
+}
+.nav a{
+    color: white;
+    font-weight: normal;
+    font-size: 27px;
+}
+.nav ul li{
+    display: inline;
+    margin-left: 12px;
+    
+}
+/* end navbar */
+
+/* start hero-img */
+
+.hero-img{
+    width: 100%;
+    height: calc(100vh - 65px);
+    background-image: url(../images/hero-img.jpeg);
+    background-size: cover;
+    margin-top: 65px;  
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+.hero-text h1{
+    text-align: center;
+    color: black;
+    font-size: 50px ;
+    padding-top: 130px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    
+}
+.hero-text{
+    width: 60%;
+    transform: translate(0% , 50%);
+    padding-top: 80px;
+    margin: auto;
+    /* position: absolute;
+    z-index: 3px; */
+}
+.hero-img p{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: -3px;
+
+
+}
+.button1,
+.button2{
+    background-color: palevioletred;
+    float: left;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color:white;
+    display: inline;
+    margin: auto;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 12px;
+    transition: .3s;
+   
+
+}
+.button1{
+    margin: 20px 10px 10px 380px;
+}
+.button2{
+    margin: 20px 30px;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* end hero-img */
+
+/* start section1 */
+.main-section{
+    width: 100%;
+    height: 50vh;
+    margin-top: 60px;
+}
+.main-section h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 70px;
+}
+.main-section h1 ::before{
+    content: ' ';
+    width: 10%;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    right: 860px;
+    bottom: -130px;
+    border-radius: 20px;
+}
+
+
+.box-sec1{    
+    width: 30%;
+    height: 300px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    float: left;
+    
+    
+}
+    
+
+.box2-sec1
+{
+    margin: 0px 5%;  
+}
+
+button{
+    display: block;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    margin: 10px auto;
+    
+}
+
+.main-section :hover button{
+    
+    background-color: white;
+    color: rgb(226, 38, 101);
+} 
+h3{
+    color: rgb(226, 38, 101);
+    font-size: 25px;
+    margin: 10px 0px;
+}
+.box-sec1 p{
+    font-size: 20px;
+    margin: 15px 0px 35px 0px;
+}
+/* end sec1  */
+/* start section2 Galry */
+.second-section{
+    background-color: rgba(193, 181, 160, 0.39);
+    width: 100%;
+    height:calc(100vh - 60px);
+    padding-top: 50px;
+    
+}
+.second-section h1 ::before{
+    content: ' ';
+    width: 20%;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    bottom: -655px;
+    right: 760px;
+    border-radius: 20px;
+}
+.images{
+    width: 30%;
+    height: 320px;
+    float: left;
+    border-radius: 14px;
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+.img2,
+.img5{
+    margin: 0px 5%;  
+}
+.img1,
+.img2,
+.img3{
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+.img1{
+    background-image: url(../images/img.jpeg);
+} 
+.img2{
+    background-image: url(../images/imge.jpeg);
+}
+.img3{
+    background-image: url(../images/OIP.jpeg);
+}
+.img4{
+    background-image: url(../images/OIP\ \(1\).jpeg);
+}
+.img5{
+    background-image: url(../images/hero-img.jpeg);
+}
+.img6{
+    background-image: url(../images/OIP\ \(2\).jpeg);
+}
+/* end section2 */
+
+/* start section3 */
+.third-section{
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    padding-top: 50px;
+    
+}
+
+.third-section h1 ::before{
+    content: ' ';
+    width:14%;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    bottom: -1550px;
+    right: 820px;
+    border-radius: 20px;
+}
+.image{
+    width: 30%;
+    height: 250px;
+    padding: 12px;
+    float: left;
+    border: 1px solid black;
+    position: relative;
+}
+.image h3{
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 200;
+}
+.image p{
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 18px;
+    letter-spacing: 1;
+}
+.image i{
+    
+    position: absolute;
+    top: 49px;
+    font-size: 30px;
+    left: 3px;
+    color: #17242d;
+    margin-top: 20px;
+}
+/* .third-section .image::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #17242d;
+    z-index: -1;
+    transition: .6s;
+    width: 0;
+    height: 0;
+} */
+.box2,
+.box5{
+    margin: 0px 5%;  
+}
+.box1,
+.box2,
+.box3{
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+/* end third-section */
+
+/* start fourth-section */
+.fourth-section{
+    width: 100%;
+    height: 55vh;
+    background-color: rgba(193, 181, 160, 0.39);
+    
+    
+}
+.fourth-section h2 span ::before{
+    content: ' ';
+    width:5%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: -2252px;
+    left: 790px;
+   
+}
+.left-fourth-sec{
+    
+    width: 25%;
+    margin-left:10%;
+    padding: 20px;
+}
+
+.left-fourth-sec span{
+    display: block;
+    margin-top: 3px;
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+.left-fourth-sec h2 span{
+    display: inline;
+    font-size: 35px;
+}
+.left-fourth-sec h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.left-fourth-sec span i{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.right-fourth-sec{
+    float: right;
+    margin: -400px 300px 0px 120px;
+}
+.right-fourth-sec img{
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+}
+.circule span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block ;
+    background-color: black;
+    margin: 10px 6px;
+
+}
+.circule span:hover{
+    cursor: pointer;
+    background-color: rgb(226, 38, 101);
+}
+/* end fourth section */
+
+/* start icons section*/
+.icons{
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/hero-bg.jpg);
+    background-color: rgba(0, 0, 0, 0.313);
+    background-attachment: fixed;
+    margin-top: 60px;
+}
+.box-icons{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: pink;
+
+    
+}
+.box-icons i{
+    margin: auto;
+}
+
+/* end icons section */
+
+/* start pricing */
+.pricing{
+    width: 100%;
+    height: 50vh;
+    margin-top: 60px;
+    position: relative;
+}
+
+.pricing h1 ::before{
+    content: ' ';
+    position: absolute;
+    width: 15%;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    right: 660px;
+    bottom: 420px;
+    border-radius: 20px;
+}
+
+.box-pricing{    
+    width: 25%;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 70px;
+    
+    
+}
+
+.box2-pricing
+{
+    margin: 70px 10%;  
+}
+
+.pricing button{
+    border: 2px solid rgb(226, 38, 101);
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    color: rgb(226, 38, 101);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px auto;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.box-pricing button:hover {
+    
+    background-color: rgb(226, 38, 101);
+    color: white;
+} 
+.cercle{
+    width: 130px;
+    height: 130px;
+    border: 1px solid rgb(226, 38, 101);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+.pricing-text span{
+    display: block;
+    margin-top: 7px ;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color:rgb(128, 128, 128);
+}
+.pricing-text{
+    margin-top: 25px;
+}
+/* end pricing section */
